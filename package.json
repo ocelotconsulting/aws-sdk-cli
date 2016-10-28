@@ -1,0 +1,36 @@
+{
+  "name": "aws-sdk-cli",
+  "version": "0.0.1",
+  "preferGlobal": true,
+  "description": "A set of AWS CLI tools for nodejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ocelotconsulting/aws-sdk-cli"
+  },
+  "keywords": [
+    "aws",
+    "cli",
+    "sdk"
+  ],
+  "author": "Larry Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocelotconsulting/aws-sdk-cli/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.12",
+    "commander": "^2.9.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.0",
+    "eslint-config": "^0.3.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
