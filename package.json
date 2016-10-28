@@ -1,6 +1,6 @@
 {
   "name": "aws-sdk-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preferGlobal": true,
   "description": "A set of AWS CLI tools for nodejs",
   "scripts": {
