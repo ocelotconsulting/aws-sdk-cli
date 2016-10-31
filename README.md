@@ -20,10 +20,13 @@ You can also append `-h` to any command for detailed help info on that particula
 Currently the additions to CLI include those supporting
 * To copy a local file to S3
 
-
-    $ aws-sdk-cli cp <filename> <s3-path>
+```bash
+aws-sdk-cli cp <filename> <s3-path>
+```
 
 * To create/update a stack in CloudFormation
 
 
-    $ aws-sdk-cli update-stack -t <template-filename> -p <parameters-filename> <stackname>
+```bash
+aws-sdk-cli update-stack -t <template-filename> -p <parameters-filename> <stackname>
+```
