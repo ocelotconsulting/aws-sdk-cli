@@ -4,16 +4,26 @@
 This toolset will be used by lambdas or other javascript code which may not have
 the proper AWS CLI installed.
 
-### To Install
+## To Install
 
-```sh
-npm install -g aws-sdk-cli
-```
+    $ npm install -g aws-sdk-cli
 
-### To Use
+## To Use
 
-All commands prefixed by aws-sdk-cli, e.g.:
+Commands are prefixed by aws-sdk-cli. For usage info type:
 
-```sh
-aws-sdk-cli cp <filename> <s3-path>
-```
+    $ aws-sd-cli -h
+
+You can also append `-h` to any command for detailed help info on that particular command.
+
+### Command supported
+Currently the additions to CLI include those supporting
+* To copy a local file to S3
+
+
+    $ aws-sdk-cli cp <filename> <s3-path>
+
+* To create/update a stack in CloudFormation
+
+
+    $ aws-sdk-cli update-stack -t <template-filename> -p <parameters-filename> <stackname>
