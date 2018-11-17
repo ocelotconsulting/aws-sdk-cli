@@ -12,7 +12,7 @@ the proper AWS CLI installed.
 
 Commands are prefixed by aws-sdk-cli. For usage info type:
 
-    $ aws-sd-cli -h
+    $ aws-sdk-cli -h
 
 You can also append `-h` to any command for detailed help info on that particular command.
 
